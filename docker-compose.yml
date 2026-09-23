@@ -1,0 +1,11 @@
+services:
+  ros2_dev:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    env_file:
+      - docker/.env
+    volumes:
+      - ./src:/workspace/src
+    tty: true
+    stdin_open: true
