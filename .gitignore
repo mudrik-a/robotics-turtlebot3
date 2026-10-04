@@ -1,7 +1,4 @@
 build/
 install/
 log/
-docker/.env
-.vscode/
-*.pyc
 __pycache__/
